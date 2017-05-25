@@ -1,0 +1,4 @@
+def XORHexStrings(a,b):
+    return (hex(a ^ b))
+
+print(XORHexStrings(0x1c0111001f010100061a024b53535009181c,0x686974207468652062756c6c277320657965))
